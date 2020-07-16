@@ -1,0 +1,4 @@
+#map {
+    /* Need height to be able to see the map width will be auto*/
+    height: 500px;
+}
