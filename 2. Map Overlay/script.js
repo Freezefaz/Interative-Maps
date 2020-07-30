@@ -13,11 +13,11 @@ function getRandomLatLng(map) {
     return [ randomLat, randomLng,];
 }
 
-let singapore = [ 1.29,103.85]; // Singapore latlng
+let singapore = [ 1.376950, 103.806926]; // Singapore latlng
 let japan = [38.28, 140.46]; //Japan latlng
 let busan = [35.1333869, 129.105835] //Busan
 
-let map = L.map('map').setView(singapore, 15); //setview is to (center, followed by how much to zoom 
+let map = L.map('map').setView(singapore, 12); //setview is to (center, followed by how much to zoom 
 // smaller zoom out, bigger is to zoom in)
 
 // setup the tile layers, visual part of the map
